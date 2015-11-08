@@ -1,0 +1,27 @@
+"*":
+  "exception-reporting":
+    userId: "9bd015a8-690e-fdf9-53e4-a9d7db76bf6d"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+    disabledPackages: [
+      "language-go"
+      "language-java"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-python"
+      "language-ruby-on-rails"
+    ]
+  editor:
+    invisibles: {}
+  "color-picker":
+    preferredFormat: "HEX"
+  minimap:
+    plugins:
+      "find-and-replace": true
