@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
 
-#ATOM_HOME= eval echo ~$USER;
-ATOM_HOME= "/Users/xunzhou/.atom";
-
-
-rsync -avzh --exclude=compile-cache --exclude=storage --exclude=.apm --exclude=.node-gyp --exclude=.git /Users/xunzhou/.atom ./atom-settings
+rsync -avzh --exclude=compile-cache --exclude=storage --exclude=.apm --exclude=.node-gyp --exclude=.git /Users/vikbert/.atom ./atom-settings
